@@ -1,0 +1,315 @@
+
+# tap repositories and their packages
+
+## caskroom/cask
+tap caskroom/cask
+brew brew-cask
+cask adapter
+cask ammonite
+cask antconc
+cask antwordprofiler
+cask appcleaner
+cask copy
+cask digikam
+cask diskwave
+cask djview
+cask etrecheck
+cask fetch
+cask flux
+cask gephi
+cask google-earth-pro
+cask google-refine
+cask handbrake
+cask hugin
+cask imagealpha
+cask imageoptim
+cask inkscape
+cask iterm2
+cask jabref
+cask josm
+cask kdiff3
+cask keka
+cask launchcontrol
+cask librecad
+cask libreoffice
+cask lunchy
+cask macdown
+cask macpass
+cask macpaw-gemini
+cask menumeters
+cask nodebox
+cask p4merge
+cask pgadmin3
+cask processing
+cask progressive-downloader
+cask qlmarkdown
+cask qlrest
+cask qlstephen
+cask quicklook-csv
+cask quicklook-json
+cask raw-photo-processor
+cask rawtherapee
+cask scribus
+cask skim
+cask sourcetree
+cask tabula
+cask thunderbird
+cask torbrowser
+cask transmission
+cask udig
+cask unetbootin
+cask vlc
+cask xld
+cask xrg
+
+## caskroom/fonts
+tap caskroom/fonts
+cask font-anonymous-pro
+cask font-dejavu-sans
+cask font-eb-garamond
+cask font-inconsolata
+cask font-input
+cask font-m-plus
+cask font-source-code-pro
+cask font-ubuntu
+
+## caskroom/versions
+tap caskroom/versions
+
+## homebrew/completions
+tap homebrew/completions
+brew django-completion
+
+## homebrew/dupes
+tap homebrew/dupes
+brew make
+brew openldap
+brew tcl-tk
+
+## homebrew/python
+tap homebrew/python
+brew matplotlib-basemap
+brew matplotlib
+brew numpy
+brew pillow
+brew python-dbus
+brew scipy
+
+## homebrew/science
+tap homebrew/science
+brew armadillo
+brew arpack
+brew glpk
+brew hdf5
+brew igraph
+brew netcdf
+brew r-gui
+brew r
+brew suite-sparse
+brew superlu
+brew veclibfort
+
+## homebrew/versions
+tap homebrew/versions
+brew openjpeg21
+
+## jawshooah/nodenv
+tap jawshooah/nodenv
+brew node-build --HEAD
+brew nodenv-aliases
+brew nodenv-npm-rehash
+brew nodenv
+
+## neovim/neovim
+tap neovim/neovim
+
+## petere/postgresql
+tap petere/postgresql
+brew postgresql-9.4
+brew postgresql-common --HEAD
+
+## rcmdnk/file
+tap rcmdnk/file
+brew brew-file
+
+## universal-ctags/universal-ctags
+tap universal-ctags/universal-ctags
+brew universal-ctags --HEAD
+
+# Other Homebrew packages
+brew ack
+brew ant
+brew aspell --with-lang-en --with-lang-uk --with-lang-pt_PT --with-lang-pt_BR --with-lang-fr
+brew atk
+brew autoconf
+brew automake
+brew boost --with-icu4c
+brew boost-python
+brew briss
+brew cairo
+brew ccache
+brew cfitsio
+brew cgal
+brew cmake
+brew coreutils
+brew cscope
+brew d-bus
+brew dbus-glib
+brew e2fsprogs
+brew emacs --with-cocoa
+brew epsilon
+brew exiftool
+brew faad2
+brew fdk-aac
+brew ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus
+brew fftw
+brew fontconfig
+brew freetype
+brew freexl
+brew fribidi
+brew gcc
+brew gd
+brew gdal
+brew gdbm
+brew gdk-pixbuf
+brew geoip --with-geoipupdate
+brew geoipupdate
+brew geos
+brew gettext
+brew ghostscript
+brew giflib
+brew git
+brew glib
+brew gmp
+brew gnu-sed
+brew gobject-introspection
+brew gpp
+brew graphicsmagick --with-ghostscript --with-libtiff --with-little-cms2 --with-webp
+brew graphviz
+brew gtk+
+brew harfbuzz
+brew hicolor-icon-theme
+brew icu4c
+brew ilmbase
+brew imagemagick --with-fftw --with-fontconfig --with-ghostscript --with-jp2 --with-librsvg --with-little-cms2 --with-openexr --with-webp --with-hdri
+brew isl
+brew jasper
+brew jbig2dec
+brew jpeg
+brew jpeg-turbo
+brew jq
+brew json-c
+brew lame
+brew libass
+brew libcroco
+brew libdap
+brew libevent
+brew libexif
+brew libffi
+brew libgaiagraphics
+brew libgeotiff
+brew libkml --HEAD
+brew liblwgeom
+brew libmagic
+brew libmemcached
+brew libmpc
+brew libogg
+brew libpng
+brew libquvi
+brew librasterlite
+brew librsvg
+brew libspatialite
+brew libtiff
+brew libtool
+brew libvo-aacenc
+brew libvorbis
+brew libvpx
+brew libxml2
+brew libyaml
+brew little-cms2
+brew lua
+brew luajit
+brew lynx
+brew lzlib
+brew mackup
+brew macvim --override-system-vim --with-lua --with-luajit
+brew mad
+brew makedepend
+brew memcached
+brew mercurial
+brew mpfr
+brew mplayer --HEAD
+brew multimarkdown
+brew mysql
+brew nmap
+brew oniguruma
+brew openexr
+brew openjpeg
+brew openssl
+brew optipng
+brew opus
+brew osm2pgsql
+brew osmosis
+brew ossp-uuid
+brew pandoc
+brew pango
+brew pcre
+brew pex
+brew phantomjs
+brew pixman
+brew pkg-config
+brew pngcrush
+brew pngquant
+brew poppler
+brew popt
+brew proj
+brew protobuf
+brew protobuf-c
+brew pstree
+brew py2cairo
+brew pyenv
+brew pyenv-ccache
+brew pyenv-virtualenv
+brew pyqt
+brew pyside
+brew python --with-tcl-tk
+brew python3 --with-tcl-tk
+brew qscintilla2
+brew qt
+brew qt5
+brew readline
+brew readosm
+brew rename
+brew ruby
+brew sdl
+brew sfcgal
+brew shiboken
+brew sip
+brew spatialindex
+brew spatialite-gui
+brew spatialite-tools
+brew sphinx
+brew sqlite --with-icu4c
+brew sqliteman
+brew stow
+brew szip
+brew tbb
+brew texi2html
+brew texinfo
+brew the_silver_searcher
+brew tig
+brew tmux
+brew tokyo-cabinet
+brew tree
+brew unixodbc
+brew webp
+brew wget
+brew wxmac
+brew wxpython
+brew x264
+brew xerces-c
+brew xvid
+brew xz
+brew yasm
+brew zeromq
+brew zsh
